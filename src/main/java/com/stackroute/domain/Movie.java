@@ -7,6 +7,11 @@ public class Movie {
 
    private Actor actor;
 
+    public Movie(Actor actor) {
+        this.actor = actor;
+    }
+
+
     @Autowired
     public void setActor(Actor actor) {
         this.actor = actor;

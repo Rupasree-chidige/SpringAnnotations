@@ -16,22 +16,18 @@ public class Actor {
         this.age = age;
     }
 
-        @Autowired
-        @Value("Rupa")
+
         public void setName(String name) {
         this.name = name;
 
     }
 
-        @Autowired
-        @Value("female")
+
         public void setGender(String gender) {
         this.gender = gender;
 
     }
 
-        @Autowired
-        @Value("22")
         public void setAge(int age) {
         this.age = age;
 
@@ -52,7 +48,7 @@ public class Actor {
 
         @Override
         public String toString() {
-        return "com.stackroute.domain.Actor(" +
+        return "Actor(" +
                 "name:'" + name + '\'' +
                 ", gender:'" + gender + '\'' +
                 ", age:" + age +
