@@ -16,19 +16,19 @@ public class Actor {
         this.age = age;
     }
 
-
-        public void setName(String name) {
+    @Value("Rupa")
+    public void setName(String name) {
         this.name = name;
 
     }
 
-
+        @Value("female")
         public void setGender(String gender) {
         this.gender = gender;
 
     }
-
-        public void setAge(int age) {
+    @Value("22")
+    public void setAge(int age) {
         this.age = age;
 
     }

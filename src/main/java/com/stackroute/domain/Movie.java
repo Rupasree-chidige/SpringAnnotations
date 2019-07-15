@@ -11,6 +11,10 @@ public class Movie {
         this.actor = actor;
     }
 
+    public Movie() {
+
+    }
+
 
     @Autowired
     public void setActor(Actor actor) {
