@@ -1,3 +1,5 @@
+package com.stackroute.domain;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 
@@ -6,7 +8,7 @@ public class Actor {
      private String name;
     private   String gender;
     private  int age;
-        Actor(){}
+        public Actor(){}
 
     public Actor(String name, String gender, int age) {
         this.name = name;
@@ -50,7 +52,7 @@ public class Actor {
 
         @Override
         public String toString() {
-        return "Actor(" +
+        return "com.stackroute.domain.Actor(" +
                 "name:'" + name + '\'' +
                 ", gender:'" + gender + '\'' +
                 ", age:" + age +

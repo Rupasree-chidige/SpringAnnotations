@@ -1,8 +1,11 @@
+package com.stackroute.domain;
+
+import com.stackroute.domain.Actor;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Movie {
 
-    Actor actor;
+   private Actor actor;
 
     @Autowired
     public void setActor(Actor actor) {
