@@ -27,6 +27,11 @@
             <artifactId>spring-context</artifactId>
             <version>5.1.4.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>com.stackroute.springannotations</groupId>
+            <artifactId>SpringAnnotations</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
