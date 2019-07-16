@@ -1,3 +1,4 @@
+import com.stackroute.demo.BeanPostProcessorDemo;
 import com.stackroute.domain.Actor;
 import com.stackroute.domain.Movie;
 import com.stackroute.demo.BeanLifeCycleDemo;
@@ -26,5 +27,10 @@ public class ConfigurationClass {
     @Bean
     public BeanLifeCycleDemo beanLifecycle(){
         return new BeanLifeCycleDemo();
+    }
+    @Bean
+    public BeanPostProcessorDemo beanPostProcessorDemo()
+    {
+        return new BeanPostProcessorDemo();
     }
 }

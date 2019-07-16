@@ -14,7 +14,7 @@ public class BeanLifeCycleDemo  implements InitializingBean, DisposableBean {
         System.out.println("after properties set method called before bean is initialized and after properties set");
     }
 
-    @PostConstruct
+   /* @PostConstruct
     public void customInit(){
         System.out.println("Custom init called");
     }
@@ -22,5 +22,5 @@ public class BeanLifeCycleDemo  implements InitializingBean, DisposableBean {
     @PreDestroy
     public void customDestroy(){
         System.out.println("Custom destroy called");
-    }
+    }*/
 }
