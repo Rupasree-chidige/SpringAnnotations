@@ -7,6 +7,9 @@ public class Main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationClass.class);
         Movie movie = context.getBean("movie", Movie.class);
         System.out.println(movie.getActor().toString());
+        Movie movie1 = context.getBean("movie", Movie.class);
+        System.out.println(movie==movie1);
+        
 
 
 
